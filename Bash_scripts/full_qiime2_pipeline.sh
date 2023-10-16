@@ -24,9 +24,12 @@
 
 #source /home/MY_USER_NAME/.bashrc
 #source /apps/profiles/modules_dmc.sh.dyn
+
 module load qiime2/2023.2 
 source activate qiime2-2023.2 
 
+# If a more recent module has to be loaded, use the following command or tab after moudle load qiime
+module spider qiime
 
 # Make directory to manually dump the outputs from all the functions below eventually
 
