@@ -20,9 +20,10 @@
 # Load the module from Alabama Supercomputer if you're running the script there
 
 # EDIT your USER here and add it to .bashrc.local file
+# This step is not necessary
 
-source /home/MY_USER_NAME/.bashrc
-source /apps/profiles/modules_dmc.sh.dyn
+#source /home/MY_USER_NAME/.bashrc
+#source /apps/profiles/modules_dmc.sh.dyn
 module load qiime2/2023.2 
 source activate qiime2-2023.2 
 
