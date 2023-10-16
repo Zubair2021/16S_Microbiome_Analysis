@@ -17,6 +17,13 @@
 # ---- Source: https://docs.qiime2.org/2020.8/tutorials -------------------------------- #  
 #  ====================================================================================  #     
 
+# Load the module from Alabama Supercomputer if you're running the script there
+source /home/MY_USER_NAME/.bashrc
+source /apps/profiles/modules_dmc.sh.dyn
+module load qiime2/2023.2 
+source activate qiime2-2023.2 
+
+
 # Make directory to manually dump the outputs from all the functions below eventually
 
 mkdir -p qiime_outputs
